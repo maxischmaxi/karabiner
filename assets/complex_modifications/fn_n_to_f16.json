@@ -1,20 +1,20 @@
 {
-    "title": "Map fn + k to F21",
+    "title": "Map fn + n to F16",
     "rules": [
         {
-            "description": "Map fn + k to F21",
+            "description": "Map fn + n to F16",
             "manipulators": [
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "k",
+                        "key_code": "n",
                         "modifiers": {
                             "mandatory": ["fn"]
                         }
                     },
                     "to": [
                         {
-                            "key_code": "f20"
+                            "key_code": "f16"
                         }
                     ]
                 }
